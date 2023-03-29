@@ -13,14 +13,14 @@ function carregar() {
     if (hour_now >= 0 && hour_now < 12) {
         // good morning
         img.src = 'morning.png'
-        document.body.style.background = '#e5cd9f'
+        document.body.style.background = '#fee3b4'
     } else if (hour_now >= 12 && hour_now < 18) {
         // good afternoon
-        document.body.style.background = '#b9846f'
+        document.body.style.background = '#4fa777'
         img.src = 'afternoon.png'
     } else {
         // good night
         img.src = 'night.png'
-        document.body.style.background = '#515154'
+        document.body.style.background = '#001834'
     }
 }
